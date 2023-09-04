@@ -18,7 +18,7 @@ const getPointOnCircle = (theta, z) => {
 }
 
 // Create line geometry and material
-const offset = Math.PI/2;
+const offset = Math.PI*2/3;
 const numLines = 40;
 const height = 1
 var lines = [];
